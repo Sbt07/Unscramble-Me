@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>Unscramble Me</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Unscramble Me</h2>
+        <div class="content">
+            <p class="word"></p>
+            <div class="details">
+                <p class="hint"><b>Hint: </b><span></span></p>
+                <p class="time">Time Left: <span><b>30</b>s</span></p>
+            </div>
+            <input type="text" placeholder="Enter your word">
+            <div class="buttons">
+                <button class="refresh-word">Refresh</button>
+                <button class="check-word">Check</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/words.js" defer></script> 
+    <script src="js/Script.js" defer></script> 
+</body>
+</html>
